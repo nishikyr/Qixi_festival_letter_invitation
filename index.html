@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Postal Qixi </title>
+  <meta name="description" content="Postal interactiva que se voltea al hacer clic.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Selector de idioma -->
+  <div class="lang-switch" role="group" aria-label="Language">
+    <button id="lang-en" class="lang-btn" aria-pressed="true" title="English">🇬🇧</button>
+    <button id="lang-zh" class="lang-btn" aria-pressed="false" title="中文">🇨🇳</button>
+  </div>
+
+  <main class="wrap">
+    <section class="scene" aria-label="Postal 3D">
+      <!-- Cambia la ruta a tu imagen -->
+      <article class="card" style="--front-img: url('Tasmin-Qixi.jpg')" tabindex="0" role="button" aria-pressed="false" aria-label="Voltear postal">
+        <!-- FRONT -->
+        <div class="card__face card__face--front">
+          <div class="front__overlay">
+            <h1 class="front__title" data-i18n="frontTitle">A little invitation</h1>
+            <p class="front__hint" data-i18n="frontHint">Tap or click to flip</p>
+          </div>
+        </div>
+
+        <!-- BACK - REVERSO -->
+        <div class="card__face card__face--back">
+          <div class="back-layout">
+            <div class="back-left">
+              <p class="dear" data-i18n="dear">Dear Ran</p>
+            </div>
+
+            <div class="back-right">
+              <p class="ask" data-i18n="ask">
+                Would you like to grab a <strong>Bubble Tea</strong> with me this
+                <strong>Friday 29</strong> at <strong>20:30</strong> (Madrid time)?
+              </p>
+            </div>
+
+            <div class="back-actions">
+              <button class="btn btn--primary" id="btnYes" data-i18n="yes">Yes, let's go!</button>
+              <button class="btn" id="btnMaybe" data-i18n="maybe">Suggest another time</button>
+              <button class="btn btn--ghost" id="btnFlipBack" data-i18n="back" title="Back">↩︎ Back</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <p class="credits">Tip: rename your image to <code>postal-qixi.png</code> or change the path above.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
