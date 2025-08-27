@@ -3,7 +3,7 @@ const i18n = {
   en: {
     frontTitle: "A little invitation",
     frontHint: "Tap or click to flip",
-    dear: "Dear Ran",
+    dear: "Dear XXXX",
     ask:
       "Would you like to grab a <strong>Bubble Tea</strong> with me this <strong>Friday 29</strong> at <strong>20:30</strong> (Madrid time)?",
     yes: "Yes, let's go!",
@@ -15,7 +15,7 @@ const i18n = {
   zh: {
     frontTitle: "一个小小的邀请",
     frontHint: "点击或轻触翻面",
-    dear: "亲爱的 Ran",
+    dear: "亲爱的 XXXX",
     ask:
       "这个<strong>星期五 29 号</strong><strong>20:30</strong>（马德里时间），愿意和我一起去喝<strong>奶茶</strong>吗？",
     yes: "好的，一起去！",
