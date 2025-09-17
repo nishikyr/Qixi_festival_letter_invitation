@@ -14,9 +14,6 @@ It includes **multilanguage support (English 🇬🇧 and Chinese 🇨🇳)** an
   - **Back** → flips back to the front side.  
 - 🎨 **Customizable design** – uses Google Fonts, background images, and flexible `styles.css`.  
 
-## 🖼️ Preview  
-
-*(Add a GIF or screenshot of the postcard here)*  
 
 ## 🚀 Getting Started  
 
@@ -31,3 +28,9 @@ It includes **multilanguage support (English 🇬🇧 and Chinese 🇨🇳)** an
 #### ├── styles.css      # Custom styles
 #### ├── Tasmin-Qixi.jpg # Postcard cover image
 #### └── README.md       # Documentation
+
+
+
+
+
+Wherever you are, Ran, I hope you’re doing well.
