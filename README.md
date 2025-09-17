@@ -26,8 +26,8 @@ It includes **multilanguage support (English 🇬🇧 and Chinese 🇨🇳)** an
    cd qixi-postcard
 
 ## 📂 qixi-postcard
-### ├── index.html      # Main structure
-## ├── script.js       # Logic (flip, i18n, interactions)
-## ├── styles.css      # Custom styles
-## ├── Tasmin-Qixi.jpg # Postcard cover image
-## └── README.md       # Documentation
+#### ├── index.html      # Main structure
+#### ├── script.js       # Logic (flip, i18n, interactions)
+#### ├── styles.css      # Custom styles
+#### ├── Tasmin-Qixi.jpg # Postcard cover image
+#### └── README.md       # Documentation
