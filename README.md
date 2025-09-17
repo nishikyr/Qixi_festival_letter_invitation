@@ -1,4 +1,4 @@
-🌸 Qixi Postcard – Interactive Invitation
+**🌸 Qixi Postcard – Interactive Invitation**
 
 An interactive digital postcard that flips on click and lets you invite someone in a fun and special way.
 It includes multilanguage support (English 🇬🇧 and Chinese 🇨🇳) and playful interactions.
