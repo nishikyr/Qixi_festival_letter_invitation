@@ -33,4 +33,4 @@ It includes **multilanguage support (English 🇬🇧 and Chinese 🇨🇳)** an
 
 
 
-Wherever you are, TR, I hope you’re doing well.
+Wherever you are, TR wish you the best.
